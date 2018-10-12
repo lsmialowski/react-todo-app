@@ -1,0 +1,36 @@
+$padding: 100px;
+$pgsColor: #ff7726;
+
+header {
+  display: flex;
+  width: inherit;
+  height: 60px;
+  background-color: $pgsColor;
+  padding-left: $padding;
+  align-items: center;
+
+  .photo-wrapper {
+    flex-basis: 28%;
+    height: 50px;
+    img {
+      border-radius: 10px;
+      height: 100%;
+    }
+  }
+  .search-panel {
+    display: flex;
+    flex-basis: 70%;
+    .search-component {
+      flex-basis: 30%;
+    }
+    .application-name {
+      color: white;
+      font-size: 25px;
+      flex-basis: 70%;
+      text-align: left;
+      font-weight: bolder;
+      text-shadow: 2px 2px whitesmoke;
+    }
+  }
+
+}

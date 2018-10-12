@@ -1,0 +1,13 @@
+$padding: 100px;
+
+.container {
+  min-height: 100vh;
+  background-color: black;
+}
+
+.content-container {
+  display: flex;
+  min-height: 100vh;
+  padding-right: 10%;
+  padding-left: $padding;
+}

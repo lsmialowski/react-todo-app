@@ -1,0 +1,24 @@
+section {
+  padding-left: 5%;
+  flex-basis: 70%;
+  background-color: white; }
+  section .section-header-wrapper {
+    padding-top: 70px;
+    display: flex;
+    align-items: baseline; }
+    section .section-header-wrapper .day {
+      font-size: 20px;
+      font-weight: bold; }
+    section .section-header-wrapper .date {
+      padding-left: 15px; }
+  section .list-wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  section .create-new-note {
+    display: block;
+    font-size: 19px;
+    color: #ff7726;
+    max-width: 14%;
+    box-shadow: 1px 1px #ff7726; }
+
+/*# sourceMappingURL=Section.css.map */

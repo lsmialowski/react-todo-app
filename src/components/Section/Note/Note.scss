@@ -1,0 +1,39 @@
+$padding: 10px;
+
+.note {
+  display: flex;
+  min-width: 100%;
+  padding-top: $padding;
+  align-items: baseline;
+  .radio-box-wrapper {
+    padding-right: $padding;
+  }
+  .text-wrapper {
+    flex-basis: 70%;
+    display: flex;
+    padding-left: $padding;
+    padding-right: $padding;
+    align-items: baseline;
+    .text{
+      height: 100px;
+    }
+    .form {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      .text-edit {
+        width: 100%;
+        height: 60px;
+        resize: none;
+        font-size: inherit;
+      }
+    }
+    .edit {
+      width: 100%;
+      height: 50px;
+    }
+  }
+  .options-wrapper {
+
+  }
+}

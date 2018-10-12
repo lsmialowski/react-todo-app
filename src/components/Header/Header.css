@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  width: inherit;
+  height: 60px;
+  background-color: #ff7726;
+  padding-left: 100px;
+  align-items: center; }
+  header .photo-wrapper {
+    flex-basis: 28%;
+    height: 50px; }
+    header .photo-wrapper img {
+      border-radius: 10px;
+      height: 100%; }
+  header .search-panel {
+    display: flex;
+    flex-basis: 70%; }
+    header .search-panel .search-component {
+      flex-basis: 30%; }
+    header .search-panel .application-name {
+      color: white;
+      font-size: 25px;
+      flex-basis: 70%;
+      text-align: left;
+      font-weight: bolder;
+      text-shadow: 2px 2px whitesmoke; }
+
+/*# sourceMappingURL=Header.css.map */

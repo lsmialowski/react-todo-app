@@ -1,0 +1,29 @@
+.note {
+  display: flex;
+  min-width: 100%;
+  padding-top: 10px;
+  align-items: baseline; }
+  .note .radio-box-wrapper {
+    padding-right: 10px; }
+  .note .text-wrapper {
+    flex-basis: 70%;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: baseline; }
+    .note .text-wrapper .text {
+      height: 100px; }
+    .note .text-wrapper .form {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap; }
+      .note .text-wrapper .form .text-edit {
+        width: 100%;
+        height: 60px;
+        resize: none;
+        font-size: inherit; }
+    .note .text-wrapper .edit {
+      width: 100%;
+      height: 50px; }
+
+/*# sourceMappingURL=Note.css.map */

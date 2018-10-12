@@ -1,0 +1,33 @@
+$pgsColor: #ff7726;
+
+section {
+  padding-left: 5%;
+  flex-basis: 70%;
+  background-color: white;
+  .section-header-wrapper {
+    padding-top: 70px;
+    display: flex;
+    align-items: baseline;
+    .day {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .date {
+      padding-left: 15px;
+    }
+  }
+
+  .list-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .create-new-note{
+    display: block;
+    font-size: 19px;
+    color: $pgsColor;
+    max-width: 14%;
+    box-shadow: 1px 1px $pgsColor;
+  }
+
+}
